@@ -8,6 +8,10 @@ body {
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ПАЛИТРА ЦВЕТОВ */
@@ -80,13 +84,6 @@ a.link {
 
 /* ОБЩЕЕ ДЛЯ СТРАНИЦ */
 /* HEADER NAVIGATION  */
-
-.page-header .main-nav {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .site-nav {
   display: flex;
@@ -198,8 +195,9 @@ a.link {
   margin-bottom: 62px;
 }
 
-.contacts .list {
+.footer-adress .list {
   margin-right: 69px;
+  padding-left: 15px;
 }
 
 .footer {
@@ -248,7 +246,7 @@ ul {
 }
 
 .footer-adress-item p {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -257,7 +255,7 @@ ul {
 
 .footer-adress-item .link {
   color: var(--secondary-text-color);
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -300,7 +298,6 @@ ul {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 252px;
 }
 
 .hero {
@@ -349,13 +346,9 @@ ul {
 
 .flex-advantage {
   margin-bottom: 94px;
-  width: 1170;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.advantage .title {
-  margin-bottom: 10px;
 }
 
 .advantage .title {
@@ -364,7 +357,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-button: 10px;
+  margin-bottom: 10px;
 }
 
 .advantage .text {
@@ -376,12 +369,10 @@ ul {
 /* СТУДИЯ: WORK */
 
 .flex-work {
-  height: 386px;
-  width: 1170px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .work-section {
@@ -426,22 +417,25 @@ ul {
 
 /* СТУДИЯ: FEATURES */
 
+.item-width {
+  width: 270px;
+}
+
 .flex-team {
+  width: 1200px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
-  height: 702px;
 }
 
 .features {
   background-color: var(--background-section-color);
   margin-top: 94px;
-  height: 702px;
 }
 
 .flex-team .list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .flex-team .name {
